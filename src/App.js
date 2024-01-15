@@ -7,9 +7,6 @@ function App() {
       <BrowserRouter>
         <AllComponents />
       </BrowserRouter>
-      <div>test</div>
-      <div></div>
-      <div>test</div>
     </div>
   );
 }
