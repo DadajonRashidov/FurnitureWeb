@@ -7,6 +7,7 @@ function App() {
       <BrowserRouter>
         <AllComponents />
       </BrowserRouter>
+      <h1></h1>
     </div>
   );
 }
