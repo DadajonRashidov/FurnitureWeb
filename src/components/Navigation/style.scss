@@ -1,0 +1,64 @@
+header {
+  color: snow;
+  box-shadow: 10px 10px 15px 5px gray;
+  nav {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    // display: grid;
+    // grid-template-columns: 1fr 3fr 1fr;
+    .logo {
+      h1 {
+        font-size: 40px;
+        color: black;
+      }
+    }
+    .link {
+      margin-top: 15px;
+      a {
+        margin-right: 50px;
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .icon {
+      margin-top: 15px;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.Footer {
+  background-color: lightblue;
+  .bd-footer {
+    padding: 100px 50px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    .left {
+      border-right: 2px solid black;
+      .nm-footer {
+        color: orange;
+        font-size: 70px;
+      }
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+    }
+    .right {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .body-p {
+        margin-left: 100px;
+
+        p {
+          margin-top: 20px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
