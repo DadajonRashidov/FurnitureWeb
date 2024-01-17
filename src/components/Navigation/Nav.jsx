@@ -3,7 +3,7 @@ function Nav() {
   return (
     <nav>
       <div className="logo">
-        <h1>Logo</h1>
+        <Link to="/">Logo</Link>
       </div>
       <div className="link">
         <Link to="/home">Home</Link>
