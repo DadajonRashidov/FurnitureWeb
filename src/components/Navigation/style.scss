@@ -1,3 +1,6 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css);
+
 header {
   color: snow;
   box-shadow: 10px 10px 15px 5px gray;
@@ -149,43 +152,51 @@ header {
     }
   }
 }
+
 .control-arrow {
   visibility: hidden;
 }
 
-.body-pod-content{
+.body-pod-content {
   position: relative;
-  padding: 100px  50px ;
-  h1{
+  padding: 100px 50px;
+
+  h1 {
     font-size: 60px;
-    span{
+
+    span {
       color: red;
       font-size: 60px;
     }
   }
-  p{
+
+  p {
     font-size: 30px;
     color: gray;
     margin-top: 20px;
   }
-  .imgs{
+
+  .imgs {
     position: absolute;
     right: 0;
     bottom: 200px;
-    img{
+
+    img {
       margin-right: 40px;
       border-radius: 10px;
     }
   }
 }
-.bodyonfooter{
-  padding: 100px  50px ;
+
+.bodyonfooter {
+  padding: 100px 50px;
   background: url(../../assets/img/gor3.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 500px;
-  .skidka{
+
+  .skidka {
     background-color: white;
     border-radius: 50%;
     width: 100px;
@@ -193,25 +204,30 @@ header {
     text-align: center;
     color: red;
     font-size: 25px;
-    position: absolute ;
-    top:1400px;
+    position: absolute;
+    top: 2800px;
     left: 100px;
     border: 5px solid black;
   }
-  .section-text{
+
+  .section-text {
     float: right;
     margin-right: 100px;
-    p{
+
+    p {
       font-size: 60px;
       color: gray;
-      span{
+
+      span {
         color: red;
       }
     }
-    hr{
+
+    hr {
       margin-top: 20px;
     }
-    button{
+
+    button {
       width: 150px;
       background-color: red;
       color: white;
@@ -221,10 +237,21 @@ header {
       border-radius: 10px;
       height: 50px;
 
-        &:hover {
-          box-shadow: 0 0 20px 4px red;
-        }
-      
+      &:hover {
+        box-shadow: 0 0 20px 4px red;
+      }
+
     }
+  }
+}
+
+.card-carousel-body {
+  margin-top: 20px;
+  padding: 100px 0;
+  .new-arrivals{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
   }
 }
