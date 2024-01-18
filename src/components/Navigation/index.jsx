@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import Content from "./Content"
 import PodContent from "./PodContent";
+
 import Onthefooter from "./Onthefooter";
 function Navigation() {
   return (
@@ -14,9 +15,6 @@ function Navigation() {
 
       <Content />
       <PodContent />
-
-
-      
       <Onthefooter />
 
       <div className="Footer">
